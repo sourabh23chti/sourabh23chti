@@ -24,10 +24,16 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
+try
+{
             var command = new CommandRepository(new WriteCommand());
             command.SaveMyData();
             var query = new QueriesRepository(new Queries.Queries());
             query.GetMyData();
+}
+catch(Exception ex)
+{
+}
         }
     }
 }
