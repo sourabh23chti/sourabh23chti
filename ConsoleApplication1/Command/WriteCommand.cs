@@ -10,7 +10,7 @@ namespace ConsoleApplication1.Command
     {
         public void SaveData()
         {
-            Console.WriteLine("Data Saved");
+            Console.WriteLine("Data Saved2");
         }
     }
 }
